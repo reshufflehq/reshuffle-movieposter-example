@@ -1,0 +1,41 @@
+{
+  "name": "reshuffle-movieposter-example",
+  "version": "0.0.1",
+  "description": "Use Reshuffle to create an API resolving movie name to poster image using EIDR and Movies Anywhere",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf logs node_modules package-lock.json",
+    "start": "node --unhandled-rejections=strict index.js",
+    "test": "echo \"No tests yet\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reshufflehq/reshuffle-movieposter-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reshufflehq/reshuffle-movieposter-example/issues"
+  },
+  "homepage": "https://github.com/reshufflehq/reshuffle-movieposter-example#readme",
+  "keywords": [
+    "eidr",
+    "moviesanywhere",
+    "movies anywhere",
+    "film",
+    "movie",
+    "integrations",
+    "reshuffle",
+    "services",
+    "workflows"
+  ],
+  "author": "Avner Braverman",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "reshuffle": "^0.9.24",
+    "reshuffle-eidr-connector": "0.0.4",
+    "reshuffle-moviesanywhere-connector": "0.0.2"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
