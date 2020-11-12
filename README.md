@@ -14,20 +14,20 @@ name.
 This is a two stage process. The code first uses Reshuffle's [Entertainment
 Identifier Registry (EIDR)](https://eidr.org/) connector to resolve the
 movie name into a standaridized movie ID. It then uses the
-[Movies Anywhere](https://moviesanywhere.com/) to lookup to movie poster
+[Movies Anywhere](https://moviesanywhere.com/) public API to lookup a movie poster
 image given this ID.
 
 #### Usage
 
-First install the example and start the Reshuffle server:
+Install this example and start it:
 
 ```bash
 npm install reshuffle-movieposter-example
 npm run start
 ```
 
-This will start a web server at local port 8000. Then point your browser to
-the local URL
+This will start Reshuffle, which starts a web server at local port 8000.
+Point your browser to the local URL:
 
 `http://localhost:8000/movie-poster?name=abominable`
 
