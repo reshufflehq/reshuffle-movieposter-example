@@ -7,7 +7,7 @@
 
 ### Reshuffle Movie Poster Example
 
-This example uses [Resshufle](https://github.com/reshufflehq/reshuffle) to
+This example uses [Reshuffle](https://github.com/reshufflehq/reshuffle) to
 set up an API endpoint for retrieving a movie poster image using the movie's
 name.
 
